@@ -13,7 +13,7 @@ input {
 }
 
 input[type=submit], input[type=button] {
-  width: 100px;
+  width: 200px;
   background-color: #4E1B75;
   font-size: 1.25em;
   text-transform: uppercase;
@@ -29,4 +29,20 @@ input[type=submit]:hover, input[type=button]:hover {
 
 input[type="button"]:disabled {
   background-color: #bdc3c7;
+}
+
+.hidden {
+	display: none;
+}
+
+table {
+	border: 1px solid white;
+	border-spacing: 0px;
+}
+
+
+td, th {
+	margin: 3px;
+	padding: 3px;
+	border: 1px solid white;
 }
